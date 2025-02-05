@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyAddressBO.iml" filepath="$PROJECT_DIR$/MyAddressBO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyEnderecoBO.iml" filepath="$PROJECT_DIR$/MyEnderecoBO.iml" />
     </modules>
   </component>
 </project>
