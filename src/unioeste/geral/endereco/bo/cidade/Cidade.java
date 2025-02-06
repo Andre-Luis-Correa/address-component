@@ -1,4 +1,6 @@
-package unioeste.geral.endereco.bo;
+package unioeste.geral.endereco.bo.cidade;
+
+import unioeste.geral.endereco.bo.unidadefederativa.UnidadeFederativa;
 
 import java.io.Serializable;
 

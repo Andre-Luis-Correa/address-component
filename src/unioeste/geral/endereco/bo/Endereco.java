@@ -1,5 +1,8 @@
 package unioeste.geral.endereco.bo;
 
+import unioeste.geral.endereco.bo.cidade.Cidade;
+import unioeste.geral.endereco.bo.logradouro.Logradouro;
+
 import java.io.Serializable;
 
 public class Endereco implements Serializable {

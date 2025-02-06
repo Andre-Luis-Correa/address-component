@@ -1,4 +1,6 @@
-package unioeste.geral.endereco.bo;
+package unioeste.geral.endereco.bo.logradouro;
+
+import unioeste.geral.endereco.bo.tipologradouro.TipoLogradouro;
 
 import java.io.Serializable;
 
