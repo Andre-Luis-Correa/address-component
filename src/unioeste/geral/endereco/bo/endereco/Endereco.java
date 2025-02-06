@@ -1,5 +1,6 @@
 package unioeste.geral.endereco.bo.endereco;
 
+import unioeste.geral.endereco.bo.bairro.Bairro;
 import unioeste.geral.endereco.bo.cidade.Cidade;
 import unioeste.geral.endereco.bo.logradouro.Logradouro;
 
@@ -11,12 +12,14 @@ public class Endereco implements Serializable {
     private String cep;
     private Cidade cidade;
     private Logradouro logradouro;
+    private Bairro bairro;
 
-    public Endereco(Long id, String cep, Cidade cidade, Logradouro logradouro) {
+    public Endereco(Long id, String cep, Cidade cidade, Logradouro logradouro, Bairro bairro) {
         this.id = id;
         this.cep = cep;
         this.cidade = cidade;
         this.logradouro = logradouro;
+        this.bairro = bairro;
     }
 
     public Long getId() {
@@ -49,5 +52,13 @@ public class Endereco implements Serializable {
 
     public void setLogradouro(Logradouro logradouro) {
         this.logradouro = logradouro;
+    }
+
+    public Bairro getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(Bairro bairro) {
+        this.bairro = bairro;
     }
 }
