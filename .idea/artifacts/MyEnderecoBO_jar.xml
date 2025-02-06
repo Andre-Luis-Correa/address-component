@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyEnderecoBO:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyEnderecoBO_jar</output-path>
+    <root id="archive" name="MyEnderecoBO.jar">
+      <element id="module-output" name="MyEnderecoBO" />
+    </root>
+  </artifact>
+</component>
