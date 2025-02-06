@@ -1,4 +1,4 @@
-package unioeste.geral.endereco.bo;
+package unioeste.geral.endereco.bo.endereco;
 
 import unioeste.geral.endereco.bo.cidade.Cidade;
 import unioeste.geral.endereco.bo.logradouro.Logradouro;

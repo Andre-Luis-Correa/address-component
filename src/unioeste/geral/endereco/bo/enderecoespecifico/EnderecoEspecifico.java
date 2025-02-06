@@ -1,6 +1,6 @@
 package unioeste.geral.endereco.bo.enderecoespecifico;
 
-import unioeste.geral.endereco.bo.Endereco;
+import unioeste.geral.endereco.bo.endereco.Endereco;
 
 import java.io.Serializable;
 
