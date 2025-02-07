@@ -7,6 +7,9 @@ public class UnidadeFederativa implements Serializable {
     private String sigla;
     private String nome;
 
+    public UnidadeFederativa() {
+    }
+
     public UnidadeFederativa(String sigla, String nome) {
         this.sigla = sigla;
         this.nome = nome;

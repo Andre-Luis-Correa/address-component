@@ -7,6 +7,9 @@ public class Bairro implements Serializable {
     private Long id;
     private String nome;
 
+    public Bairro() {
+    }
+
     public Bairro(Long id, String nome) {
         this.id = id;
         this.nome = nome;

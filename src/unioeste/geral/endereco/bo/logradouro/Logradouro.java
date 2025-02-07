@@ -10,6 +10,9 @@ public class Logradouro implements Serializable {
     private String nome;
     private TipoLogradouro tipoLogradouro;
 
+    public Logradouro() {
+    }
+
     public Logradouro(Long id, String nome, TipoLogradouro tipoLogradouro) {
         this.id = id;
         this.nome = nome;

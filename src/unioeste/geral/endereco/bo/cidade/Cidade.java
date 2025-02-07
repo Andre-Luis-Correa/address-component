@@ -10,6 +10,9 @@ public class Cidade implements Serializable {
     private String nome;
     private UnidadeFederativa unidadeFederativa;
 
+    public Cidade() {
+    }
+
     public Cidade(Long id, String nome, UnidadeFederativa unidadeFederativa) {
         this.id = id;
         this.nome = nome;

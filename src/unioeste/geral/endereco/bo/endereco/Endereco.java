@@ -14,6 +14,9 @@ public class Endereco implements Serializable {
     private Logradouro logradouro;
     private Bairro bairro;
 
+    public Endereco() {
+    }
+
     public Endereco(Long id, String cep, Cidade cidade, Logradouro logradouro, Bairro bairro) {
         this.id = id;
         this.cep = cep;
